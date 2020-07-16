@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  box-sizing: border-box;
+  background: black;
+  overflow: hidden;
+}
+
+.fa-snowflake {
+  position: absolute;
+  top: -80px;
+  color: white;
+  animation: fall-rotate 3s ease-in;
+  transform: translateY(700px);
+}
+
+@keyframes fall-rotate {
+  from {
+    transform: translateY(0) rotate(0);
+  }
+  to {
+    transform: translateY(850px) rotate(360deg);
+  }
+}
