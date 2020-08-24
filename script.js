@@ -1,4 +1,4 @@
-const display = document.body;
+const display = document.getElementById("container");
 
 setInterval(() => {
   for (let i = 0; i < 2; i++) {
